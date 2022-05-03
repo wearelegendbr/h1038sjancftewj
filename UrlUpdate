@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.3",
-  "ReleaseNotes": "Atualização 1.0.3",
+  "Version": "1.0.4",
+  "ReleaseNotes": "Atualização 1.0.4",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "suporte.inet@gmail.com",
@@ -30,7 +30,7 @@
       "TlsIP": "104.16.19.94",
       "ProxyIP": "104.16.19.94",
       "ProxyPort": "80",
-      "Info": "SSH/INJECT"
+      "Info": "Proxy"
     },
     {
       "Name": "VIVO",
@@ -40,7 +40,7 @@
       "TlsIP": "104.16.18.94",
       "ProxyIP": "104.16.18.94",
       "ProxyPort": "80",
-      "Info": "SSH/DIRECT"
+      "Info": "Direct"
     },
     {
       "Name": "VIVO",
@@ -50,7 +50,7 @@
       "TlsIP": "104.16.57.6",
       "ProxyIP": "104.16.57.6",
       "ProxyPort": "443",
-      "Info": "SSH/PAYSSL"
+      "Info": "Tlsws"
     },
     {
       "Name": "TIM",
@@ -60,7 +60,7 @@
       "TlsIP": "104.16.18.94",
       "ProxyIP": "104.16.18.94:",
       "ProxyPort": "80",
-      "Info": "SSH/INJECT"
+      "Info": "Proxy"
     },
     {
       "Name": "TIM",
@@ -70,7 +70,7 @@
       "TlsIP": "104.16.19.94",
       "ProxyIP": "104.16.19.94",
       "ProxyPort": "443",
-      "Info": "SSH/PAYSSL"
+      "Info": "Tlsws"
     },
     {
       "Name": "TIM",
@@ -80,7 +80,7 @@
       "TlsIP": "104.16.57.6",
       "ProxyIP": "104.16.57.6",
       "ProxyPort": "80",
-      "Info": "SSH/DIRECT"
+      "Info": "Direct"
     },
     {
       "Name": "CLARO",
@@ -90,7 +90,7 @@
       "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "no.descomplica.com.br",
       "ProxyPort": "443",
-      "Info": "SSH/PAYSSL"
+      "Info": "Tlsws"
     }
   ]
 }
