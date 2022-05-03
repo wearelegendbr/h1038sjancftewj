@@ -1,6 +1,6 @@
 {
-  "Version": "1.1.0",
-  "ReleaseNotes": "Atualização 1.1.0",
+  "Version": "1.1.2",
+  "ReleaseNotes": "Atualização 1.1.2",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "suporte.inet@gmail.com",
@@ -48,8 +48,8 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "104.16.57.6",
-      "ProxyIP": "104.16.57.6",
-      "ProxyPort": "443",
+      "ProxyIP": "",
+      "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
