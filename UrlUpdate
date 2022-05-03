@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.4",
-  "ReleaseNotes": "Atualização 1.0.4",
+  "Version": "1.0.5",
+  "ReleaseNotes": "Atualização 1.0.5",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "suporte.inet@gmail.com",
@@ -37,9 +37,9 @@
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
-      "TlsIP": "104.16.18.94",
-      "ProxyIP": "104.16.18.94",
-      "ProxyPort": "80",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "80;8080;8880;2052;2082",
       "Info": "Direct"
     },
     {
@@ -77,9 +77,9 @@
       "FLAG": "tim",
       "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: ws[crlf][crlf]",
       "SNI": "",
-      "TlsIP": "104.16.57.6",
-      "ProxyIP": "104.16.57.6",
-      "ProxyPort": "80",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "80;8080;8880;2052;2082",
       "Info": "Direct"
     },
     {
