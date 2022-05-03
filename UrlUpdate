@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.8",
-  "ReleaseNotes": "Atualização 1.0.8",
+  "Version": "1.0.9",
+  "ReleaseNotes": "Atualização 1.0.9",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "suporte.inet@gmail.com",
@@ -38,7 +38,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "104.16.18.94",
-      "ProxyIP": "",
+      "ProxyIP": "104.16.18.94",
       "ProxyPort": "80;8080;8880;2052;2082",
       "Info": "Direct"
     },
