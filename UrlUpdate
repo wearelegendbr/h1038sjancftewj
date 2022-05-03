@@ -1,6 +1,6 @@
 {
-  "Version": "2.0.1",
-  "ReleaseNotes": "Atualização 2.0.1",
+  "Version": "1.0.3",
+  "ReleaseNotes": "Atualização 1.0.3",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "suporte.inet@gmail.com",
@@ -55,7 +55,7 @@
     {
       "Name": "TIM",
       "FLAG": "tim",
-      "Payload": "GET /? HTTP/1.0[lf]Host: castigo.xyz[lf]Upgrade: websocket[lf]Connection: Keep-Alive\\nUser-Agent: [ua]\\nReferer: [lf][lf],
+      "Payload": "GET /? HTTP/1.0[lf]Host: castigo.xyz[lf]Upgrade: websocket[lf]Connection: Keep-Alive\\nUser-Agent: [ua]\\nReferer: [lf][lf]",
       "SNI": "",
       "TlsIP": "104.16.18.94",
       "ProxyIP": "104.16.18.94:",
