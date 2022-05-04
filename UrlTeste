@@ -1,6 +1,6 @@
 {
-  "Version": "2.3.5",
-  "ReleaseNotes": "Atualização 2.3.5 Fix",
+  "Version": "2.3.6",
+  "ReleaseNotes": "Atualização 2.3.6 Fix",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "suporte.inet@gmail.com",
@@ -30,7 +30,7 @@
       "SSLPort": "80",
       "USER": "",
       "PASS": ""
-    },
+    }
   ],
   "Networks": [
     {
