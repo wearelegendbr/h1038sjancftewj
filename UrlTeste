@@ -1,6 +1,6 @@
 {
-  "Version": "2.3.4",
-  "ReleaseNotes": "Atualização 2.3.4",
+  "Version": "2.3.5",
+  "ReleaseNotes": "Atualização 2.3.5 Fix",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "suporte.inet@gmail.com",
@@ -10,16 +10,27 @@
   "UdpPort": "7300;7400;7500;7600;7700",
   "Servers": [
     {
-      "Name": "iNet | INTERNET",
+      "Name": "iNet | Proxy/Tlsws",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "castigo.xyz",
       "CheckUser": "http://seucastigo.xyz:8989/checkUser",
       "ServerPort": "22",
-      "SSLPort": "",
+      "SSLPort": "443",
       "USER": "",
       "PASS": ""
-    }
+    },
+    {
+      "Name": "iNet | Direct",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "castigo.xyz",
+      "CheckUser": "http://seucastigo.xyz:8989/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "80",
+      "USER": "",
+      "PASS": ""
+    },
   ],
   "Networks": [
     {
@@ -31,17 +42,6 @@
       "ProxyIP": "104.16.19.94",
       "ProxyPort": "80",
       "Info": "Proxy"
-    },
-    {
-      "Name": "VIVO",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "104.16.18.94",
-      "TlsPort": "80",
-      "ProxyIP": "104.16.18.94",
-      "ProxyPort": "80",
-      "Info": "Direct"
     },
     {
       "Name": "VIVO",
@@ -64,6 +64,16 @@
       "Info": "Tlsws"
     },
     {
+      "Name": "VIVO",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "104.16.18.94",
+      "ProxyIP": "104.16.18.94",
+      "ProxyPort": "80",
+      "Info": "Direct"
+    },
+    {
       "Name": "TIM",
       "FLAG": "tim",
       "Payload": "GET /? HTTP/1.0[lf]Host: castigo.xyz[lf]Upgrade: websocket[lf]Connection: Keep-Alive\\nUser-Agent: [ua]\\nReferer: [lf][lf]",
@@ -72,17 +82,6 @@
       "ProxyIP": "104.16.18.94",
       "ProxyPort": "80",
       "Info": "Proxy"
-    },
-{
-      "Name": "TIM",
-      "FLAG": "tim",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "104.16.56.6",
-      "SSLPort": "80",
-      "ProxyIP": "104.16.56.6",
-      "ProxyPort": "80",
-      "Info": "Direct"
     },
     {
       "Name": "TIM",
@@ -100,7 +99,6 @@
       "Payload": "GET wss://no.descomplica.com.br HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "no.descomplica.com.br",
       "TlsIP": "no.descomplica.com.br",
-      "SSLPort": "443",
       "ProxyIP": "no.descomplica.com.br",
       "ProxyPort": "443",
       "Info": "Tlsws"
