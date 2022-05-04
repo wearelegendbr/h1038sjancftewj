@@ -1,6 +1,6 @@
 {
-  "Version": "2.0.4",
-  "ReleaseNotes": "Atualização 2.0.4",
+  "Version": "2.0.5",
+  "ReleaseNotes": "Atualização 2.0.5",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlTeste",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "suporte.inet@gmail.com",
@@ -87,8 +87,8 @@
       "FLAG": "tim",
       "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: ws[crlf][crlf]",
       "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "",
+      "TlsIP": "104.16.56.6",
+      "ProxyIP": "castigo.xyz",
       "ProxyPort": "80",
       "Info": "Direct"
     },
@@ -103,12 +103,12 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO",
-      "FLAG": "claro",
-      "Payload": "GET ws://atendimento.descomplica.com.br HTTP/1.1\nHost: castigo.xyz\nUpgrade: ws\n\n",
-      "SNI": "atendimento.descomplica.com.br",
+      "Name": "Oi",
+      "FLAG": "oi",
+      "Payload": "GET / HTTP/1.1\r\nHost: sourcevpn.xyz\r\nUpgrade: websocket\r\n\r\n",
+      "SNI": "",
       "TlsIP": "104.16.56.6",
-      "ProxyIP": "",
+      "ProxyIP": "castigo.xyz",
       "ProxyPort": "443",
       "Info": "Tlsws"
     }
