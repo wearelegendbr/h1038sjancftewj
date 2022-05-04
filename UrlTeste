@@ -1,6 +1,6 @@
 {
-  "Version": "2.0.5",
-  "ReleaseNotes": "Atualização 2.0.5",
+  "Version": "2.0.6",
+  "ReleaseNotes": "Atualização 2.0.6",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlTeste",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "suporte.inet@gmail.com",
@@ -105,10 +105,10 @@
     {
       "Name": "Oi",
       "FLAG": "oi",
-      "Payload": "GET / HTTP/1.1\r\nHost: sourcevpn.xyz\r\nUpgrade: websocket\r\n\r\n",
-      "SNI": "",
-      "TlsIP": "104.16.56.6",
-      "ProxyIP": "castigo.xyz",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: castigo.xyz\nUpgrade: ws\n\n",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "104.16.51.91",
+      "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
     }
