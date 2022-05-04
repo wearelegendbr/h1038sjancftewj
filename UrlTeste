@@ -1,6 +1,6 @@
 {
-  "Version": "2.2.9",
-  "ReleaseNotes": "Atualização 2.2.9",
+  "Version": "2.3.0",
+  "ReleaseNotes": "Atualização 2.3.0",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "suporte.inet@gmail.com",
@@ -104,7 +104,6 @@
       "Payload": "GET wss://no.descomplica.com.br HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "no.descomplica.com.br",
       "TlsIP": "no.descomplica.com.br",
-      "SSLPort": "443",
       "ProxyIP": "no.descomplica.com.br",
       "ProxyPort": "443",
       "Info": "Tlsws"
