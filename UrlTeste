@@ -1,6 +1,6 @@
 {
-  "Version": "2.1.1",
-  "ReleaseNotes": "Atualização 2.1.1",
+  "Version": "2.1.2",
+  "ReleaseNotes": "Atualização 2.1.2",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlTeste",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "suporte.inet@gmail.com",
@@ -14,6 +14,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "castigo.xyz",
+      "SSLPort": "443",
       "CheckUser": "http://seucastigo.xyz:8989/checkUser",
       "ServerPort": "22",
       "USER": "",
@@ -27,7 +28,6 @@
       "Payload": "GET wss://gedoc.vivo.com.br/ HTTP/1.1[lf]Host: castigo.xyz[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "gedoc.vivo.com.br",
       "TlsIP": "104.18.7.80",
-      "SSLPort": "443",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
@@ -37,8 +37,7 @@
       "FLAG": "vivo",
       "Payload": "GET /? HTTP/1.0[lf]Host: castigo.xyz[lf]Upgrade: websocket[lf]Connection: Keep-Alive\nUser-Agent: [ua]\nReferer: [lf][lf]",
       "SNI": "",
-      "TlsIP": "104.16.19.94",
-      "SSLPort": "80",
+      "TlsIP": "",
       "ProxyIP": "104.16.19.94",
       "ProxyPort": "80",
       "Info": "Proxy"
