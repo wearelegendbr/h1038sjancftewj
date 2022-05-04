@@ -1,6 +1,6 @@
 {
-  "Version": "2.0.7",
-  "ReleaseNotes": "Atualização 2.0.7",
+  "Version": "2.0.8",
+  "ReleaseNotes": "Atualização 2.0.8",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlTeste",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "suporte.inet@gmail.com",
@@ -47,8 +47,8 @@
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
-      "TlsIP": "104.16.18.94",
-      "ProxyIP": "castigo.xyz",
+      "TlsIP": "castigo.xyz",
+      "ProxyIP": "104.16.18.94",
       "ProxyPort": "80",
       "Info": "Direct"
     },
