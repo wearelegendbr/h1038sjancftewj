@@ -1,6 +1,6 @@
 {
-  "Version": "2.3.7",
-  "ReleaseNotes": "Atualização 2.3.7 Fix",
+  "Version": "2.3.8",
+  "ReleaseNotes": "Atualização 2.3.8 Fix",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "suporte.inet@gmail.com",
@@ -20,16 +20,6 @@
       "USER": "",
       "PASS": ""
     },
-    {
-      "Name": "iNet | Direct",
-      "TYPE": "premium",
-      "FLAG": "br.png",
-      "ServerIP": "castigo.xyz",
-      "CheckUser": "http://seucastigo.xyz:8989/checkUser",
-      "ServerPort": "22",
-      "USER": "",
-      "PASS": ""
-    }
   ],
   "Networks": [
     {
@@ -68,7 +58,6 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "104.16.18.94",
-      "SSLPort": "80",
       "ProxyIP": "104.16.18.94",
       "ProxyPort": "80",
       "Info": "Direct"
@@ -100,6 +89,16 @@
       "SNI": "no.descomplica.com.br",
       "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "no.descomplica.com.br",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO Teste",
+      "FLAG": "claro",
+      "Payload": "GET wss://sso.hotjar.com HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "sso.hotjar.com",
+      "TlsIP": "104.18.244.88",
+      "ProxyIP": "104.18.244.88",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
