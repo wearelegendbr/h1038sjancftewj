@@ -16,7 +16,7 @@
       "ServerIP": "castigo.xyz",
       "CheckUser": "http://seucastigo.xyz:8989/checkUser",
       "ServerPort": "22",
-      "SSLPort": "443",
+      "SSLPort": "",
       "USER": "",
       "PASS": ""
     }
@@ -100,6 +100,7 @@
       "Payload": "GET wss://no.descomplica.com.br HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "no.descomplica.com.br",
       "TlsIP": "no.descomplica.com.br",
+      "SSLPort": "443",
       "ProxyIP": "no.descomplica.com.br",
       "ProxyPort": "443",
       "Info": "Tlsws"
