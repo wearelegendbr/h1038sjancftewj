@@ -1,6 +1,6 @@
 {
-  "Version": "2.3.0",
-  "ReleaseNotes": "Atualização 2.3.0",
+  "Version": "2.3.1",
+  "ReleaseNotes": "Atualização 2.3.1",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "suporte.inet@gmail.com",
@@ -16,6 +16,7 @@
       "ServerIP": "castigo.xyz",
       "CheckUser": "http://seucastigo.xyz:8989/checkUser",
       "ServerPort": "22",
+      "SSLPort": "443",
       "USER": "",
       "PASS": ""
     }
@@ -27,7 +28,6 @@
       "Payload": "GET /? HTTP/1.0[lf]Host: castigo.xyz[lf]Upgrade: websocket[lf]Connection: Keep-Alive\nUser-Agent: [ua]\nReferer: [lf][lf]",
       "SNI": "",
       "TlsIP": "104.16.19.94",
-      "SSLPort": "80",
       "ProxyIP": "104.16.19.94",
       "ProxyPort": "80",
       "Info": "Proxy"
@@ -49,7 +49,6 @@
       "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: ws[crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "104.16.57.6",
-      "SSLPort": "443",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
@@ -60,7 +59,6 @@
       "Payload": "GET wss://gedoc.vivo.com.br/ HTTP/1.1[lf]Host: castigo.xyz[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "gedoc.vivo.com.br",
       "TlsIP": "104.18.7.80",
-      "SSLPort": "443",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
@@ -71,7 +69,6 @@
       "Payload": "GET /? HTTP/1.0[lf]Host: castigo.xyz[lf]Upgrade: websocket[lf]Connection: Keep-Alive\\nUser-Agent: [ua]\\nReferer: [lf][lf]",
       "SNI": "",
       "TlsIP": "104.16.18.94",
-      "SSLPort": "80",
       "ProxyIP": "104.16.18.94",
       "ProxyPort": "80",
       "Info": "Proxy"
@@ -93,7 +90,6 @@
       "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "cdnjs.cloudflare.com",
       "TlsIP": "104.16.19.94",
-      "SSLPort": "443",
       "ProxyIP": "104.16.19.94",
       "ProxyPort": "443",
       "Info": "Tlsws"
@@ -114,7 +110,6 @@
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: castigo.xyz\nUpgrade: ws\n\n",
       "SNI": "www.hbogo.com.br",
       "TlsIP": "104.16.51.91",
-      "SSLPort": "443",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
