@@ -1,6 +1,6 @@
 {
-  "Version": "2.0.3",
-  "ReleaseNotes": "Atualização 2.0.3",
+  "Version": "2.0.4",
+  "ReleaseNotes": "Atualização 2.0.4",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "suporte.inet@gmail.com",
@@ -25,12 +25,12 @@
     {
       "Name": "VIVO",
       "FLAG": "vivo",
-      "Payload": "GET /? HTTP/1.0[lf]Host: castigo.xyz[lf]Upgrade: websocket[lf]Connection: Keep-Alive\nUser-Agent: [ua]\nReferer: [lf][lf]",
-      "SNI": "",
-      "TlsIP": "104.16.19.94",
-      "ProxyIP": "104.16.19.94",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "Payload": "GET wss://gedoc.vivo.com.br/ HTTP/1.1[lf]Host: castigo.xyz[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "gedoc.vivo.com.br",
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
     {
       "Name": "VIVO",
