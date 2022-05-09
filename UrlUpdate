@@ -1,6 +1,6 @@
 {
-  "Version": "2.0.5",
-  "ReleaseNotes": "Atualização 2.0.5 Corrigido configurações Vivo",
+  "Version": "2.0.6",
+  "ReleaseNotes": "Atualização 2.0.6 Adicionado configurações Proxy",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "suporte.inet@gmail.com",
@@ -22,6 +22,16 @@
     }
   ],
   "Networks": [
+    {
+      "Name": "VIVO",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "castigo.xyz",
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "104.18.7.80",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
     {
       "Name": "VIVO",
       "FLAG": "vivo",
