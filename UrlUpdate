@@ -1,6 +1,6 @@
 {
-  "Version": "2.0.4",
-  "ReleaseNotes": "Atualização 2.0.4",
+  "Version": "2.0.5",
+  "ReleaseNotes": "Atualização 2.0.5 Corrigido configurações Vivo",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "suporte.inet@gmail.com",
@@ -25,9 +25,9 @@
     {
       "Name": "VIVO",
       "FLAG": "vivo",
-      "Payload": "GET wss://gedoc.vivo.com.br/ HTTP/1.1[lf]Host: castigo.xyz[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
-      "SNI": "gedoc.vivo.com.br",
-      "TlsIP": "104.18.7.80",
+      "Payload": "GET ws://celular.vivo.com.br HTTP/1.1\nHost: castigo.xyz\nUpgrade: ws\n\n",
+      "SNI": "celular.vivo.com.br",
+      "TlsIP": "celular.vivo.com.br",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
@@ -35,9 +35,9 @@
     {
       "Name": "VIVO",
       "FLAG": "vivo",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "104.16.57.6",
+      "Payload": "GET ws://vigia.vivo.com.br HTTP/1.1\nHost: castigo.xyz\nUpgrade: ws\n\n",
+      "SNI": "vigia.vivo.com.br",
+      "TlsIP": "vigia.vivo.com.br",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
