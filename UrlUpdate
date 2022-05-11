@@ -1,6 +1,6 @@
 {
-  "Version": "2.0.6",
-  "ReleaseNotes": "Atualização 2.0.6 Adicionado configurações Proxy",
+  "Version": "2.0.7",
+  "ReleaseNotes": "Atualização 2.0.7 Adicionado novas configurações Vivo e Tim",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "suporte.inet@gmail.com",
@@ -29,6 +29,16 @@
       "SNI": "castigo.xyz",
       "TlsIP": "104.18.7.80",
       "ProxyIP": "104.18.7.80",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "castigo.xyz",
+      "TlsIP": "104.18.6.80",
+      "ProxyIP": "104.18.6.80",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -75,6 +85,46 @@
     {
       "Name": "TIM",
       "FLAG": "tim",
+      "Payload": "GET /? HTTP/1.0[lf]Host: castigo.xyz[lf]Upgrade: websocket[lf]Connection: Keep-Alive\\nUser-Agent: [ua]\\nReferer: [lf][lf]",
+      "SNI": "",
+      "TlsIP": "172.67.205.8",
+      "ProxyIP": "172.67.205.8",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "TIM",
+      "FLAG": "tim",
+      "Payload": "GET wss://cdn.c6bank.com.br HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "cdn.c6bank.com.br",
+      "TlsIP": "104.16.237.16",
+      "ProxyIP": "cdn.c6bank.com.br",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM",
+      "FLAG": "tim",
+      "Payload": "GET wss://emartim.com.br HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "emartim.com.br",
+      "TlsIP": "104.16.133.83",
+      "ProxyIP": "emartim.com.br",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM",
+      "FLAG": "tim",
+      "Payload": "GET wss://consultatim.com.br HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "consultatim.com.br",
+      "TlsIP": "consultatim.com.br",
+      "ProxyIP": "consultatim.com.br",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM",
+      "FLAG": "tim",
       "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "cdnjs.cloudflare.com",
       "TlsIP": "104.16.19.94",
@@ -101,6 +151,16 @@
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
+    },
+    {
+      "Name": "Oi",
+      "FLAG": "oi",
+      "Payload": "GET / HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "castigo.xyz",
+      "TlsIP": "104.16.51.91",
+      "ProxyIP": "104.16.51.91",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     }
   ]
 }
