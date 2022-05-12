@@ -1,6 +1,6 @@
 {
-  "Version": "2.0.7",
-  "ReleaseNotes": "Atualização 2.0.7 Adicionado novas configurações Vivo e Tim",
+  "Version": "2.0.8",
+  "ReleaseNotes": "Atualização 2.0.8 Adicionado novas configurações Vivo e Tim",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "suporte.inet@gmail.com",
@@ -135,9 +135,9 @@
     {
       "Name": "CLARO",
       "FLAG": "claro",
-      "Payload": "GET wss://no.descomplica.com.br HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "no.descomplica.com.br",
-      "TlsIP": "no.descomplica.com.br",
+      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "atendimento.descomplica.com.br",
+      "TlsIP": "atendimento.descomplica.com.br",
       "ProxyIP": "no.descomplica.com.br",
       "ProxyPort": "443",
       "Info": "Tlsws"
