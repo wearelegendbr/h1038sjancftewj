@@ -1,11 +1,11 @@
 {
-  "Version": "2.0.9",
-  "ReleaseNotes": "Atualização 2.0.9 Correção Claro",
+  "Version": "2.1.0",
+  "ReleaseNotes": "Realizada manutenção do App",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
-  "EmailFeedback": "suporte.inet@gmail.com",
+  "EmailFeedback": "myappinet@gmail.com",
   "UrlContato": "https://wa.me/13215220252",
-  "UrlTermos": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/termos.html",
+  "UrlTermos": "https://wearelegendbr.github.io/h1038sjancftewj/termos.html",
   "CheckUser": "true",
   "UdpPort": "7300;7400;7500;7600;7700",
   "Servers": [
@@ -25,8 +25,8 @@
     {
       "Name": "VIVO",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "castigo.xyz",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
       "TlsIP": "104.18.7.80",
       "ProxyIP": "104.18.7.80",
       "ProxyPort": "80",
@@ -35,8 +35,8 @@
     {
       "Name": "VIVO",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "castigo.xyz",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
       "TlsIP": "104.18.6.80",
       "ProxyIP": "104.18.6.80",
       "ProxyPort": "80",
@@ -45,7 +45,7 @@
     {
       "Name": "VIVO",
       "FLAG": "vivo",
-      "Payload": "GET ws://celular.vivo.com.br HTTP/1.1\nHost: castigo.xyz\nUpgrade: ws\n\n",
+      "Payload": "GET ws://celular.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "celular.vivo.com.br",
       "TlsIP": "celular.vivo.com.br",
       "ProxyIP": "",
@@ -55,7 +55,7 @@
     {
       "Name": "VIVO",
       "FLAG": "vivo",
-      "Payload": "GET ws://vigia.vivo.com.br HTTP/1.1\nHost: castigo.xyz\nUpgrade: ws\n\n",
+      "Payload": "GET ws://vigia.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "vigia.vivo.com.br",
       "TlsIP": "vigia.vivo.com.br",
       "ProxyIP": "",
@@ -65,7 +65,7 @@
     {
       "Name": "VIVO",
       "FLAG": "vivo",
-      "Payload": "GET wss://gedoc.vivo.com.br/ HTTP/1.1[lf]Host: castigo.xyz[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "Payload": "GET wss://gedoc.vivo.com.br/ HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "gedoc.vivo.com.br",
       "TlsIP": "104.18.7.80",
       "ProxyIP": "",
@@ -75,7 +75,7 @@
     {
       "Name": "TIM",
       "FLAG": "tim",
-      "Payload": "GET /? HTTP/1.0[lf]Host: castigo.xyz[lf]Upgrade: websocket[lf]Connection: Keep-Alive\\nUser-Agent: [ua]\\nReferer: [lf][lf]",
+      "Payload": "GET /? HTTP/1.0[lf]Host: [app_host][lf]Upgrade: websocket[lf]Connection: Keep-Alive\\nUser-Agent: [ua]\\nReferer: [lf][lf]",
       "SNI": "",
       "TlsIP": "104.16.18.94",
       "ProxyIP": "104.16.18.94",
@@ -85,7 +85,7 @@
     {
       "Name": "TIM",
       "FLAG": "tim",
-      "Payload": "GET /? HTTP/1.0[lf]Host: castigo.xyz[lf]Upgrade: websocket[lf]Connection: Keep-Alive\\nUser-Agent: [ua]\\nReferer: [lf][lf]",
+      "Payload": "GET /? HTTP/1.0[lf]Host: [app_host][lf]Upgrade: websocket[lf]Connection: Keep-Alive\\nUser-Agent: [ua]\\nReferer: [lf][lf]",
       "SNI": "",
       "TlsIP": "172.67.205.8",
       "ProxyIP": "172.67.205.8",
@@ -95,7 +95,7 @@
     {
       "Name": "TIM",
       "FLAG": "tim",
-      "Payload": "GET wss://cdn.c6bank.com.br HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://cdn.c6bank.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "cdn.c6bank.com.br",
       "TlsIP": "104.16.237.16",
       "ProxyIP": "cdn.c6bank.com.br",
@@ -105,7 +105,7 @@
     {
       "Name": "TIM",
       "FLAG": "tim",
-      "Payload": "GET wss://emartim.com.br HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://emartim.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "emartim.com.br",
       "TlsIP": "104.16.133.83",
       "ProxyIP": "emartim.com.br",
@@ -115,7 +115,7 @@
     {
       "Name": "TIM",
       "FLAG": "tim",
-      "Payload": "GET wss://consultatim.com.br HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://consultatim.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "consultatim.com.br",
       "TlsIP": "consultatim.com.br",
       "ProxyIP": "consultatim.com.br",
@@ -125,7 +125,7 @@
     {
       "Name": "TIM",
       "FLAG": "tim",
-      "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "cdnjs.cloudflare.com",
       "TlsIP": "104.16.19.94",
       "ProxyIP": "104.16.19.94",
@@ -135,7 +135,7 @@
     {
       "Name": "CLARO",
       "FLAG": "claro",
-      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "atendimento.descomplica.com.br",
       "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
@@ -145,7 +145,7 @@
     {
       "Name": "Oi",
       "FLAG": "oi",
-      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: castigo.xyz\nUpgrade: ws\n\n",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "www.hbogo.com.br",
       "TlsIP": "104.16.51.91",
       "ProxyIP": "",
@@ -155,8 +155,8 @@
     {
       "Name": "Oi",
       "FLAG": "oi",
-      "Payload": "GET / HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "castigo.xyz",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
       "TlsIP": "104.16.51.91",
       "ProxyIP": "104.16.51.91",
       "ProxyPort": "80",
