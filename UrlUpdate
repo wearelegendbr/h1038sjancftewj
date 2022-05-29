@@ -1,6 +1,6 @@
 {
-  "Version": "2.1.3",
-  "ReleaseNotes": "Corrigido opção na Operadora Claro 2.1.3",
+  "Version": "2.1.4",
+  "ReleaseNotes": "Corrigido opções na Operadora Tim 2.1.4",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "myappinet@gmail.com",
@@ -75,22 +75,12 @@
     {
       "Name": "TIM",
       "FLAG": "tim",
-      "Payload": "GET /? HTTP/1.0[lf]Host: [app_host][lf]Upgrade: websocket[lf]Connection: Keep-Alive\\nUser-Agent: [ua]\\nReferer: [lf][lf]",
-      "SNI": "",
-      "TlsIP": "104.16.18.94",
-      "ProxyIP": "104.16.18.94",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "TIM",
-      "FLAG": "tim",
-      "Payload": "GET /? HTTP/1.0[lf]Host: [app_host][lf]Upgrade: websocket[lf]Connection: Keep-Alive\\nUser-Agent: [ua]\\nReferer: [lf][lf]",
-      "SNI": "",
-      "TlsIP": "172.67.205.8",
-      "ProxyIP": "172.67.205.8",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "Payload": "GET ws://static.r4you.co HTTP/1.1[crlf]Host: castigo.xyz[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "static.r4you.co",
+      "TlsIP": "104.26.5.175",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
     {
       "Name": "TIM",
@@ -99,26 +89,6 @@
       "SNI": "cdn.c6bank.com.br",
       "TlsIP": "104.16.237.16",
       "ProxyIP": "cdn.c6bank.com.br",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "TIM",
-      "FLAG": "tim",
-      "Payload": "GET wss://emartim.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "emartim.com.br",
-      "TlsIP": "104.16.133.83",
-      "ProxyIP": "emartim.com.br",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "TIM",
-      "FLAG": "tim",
-      "Payload": "GET wss://consultatim.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "consultatim.com.br",
-      "TlsIP": "consultatim.com.br",
-      "ProxyIP": "consultatim.com.br",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
