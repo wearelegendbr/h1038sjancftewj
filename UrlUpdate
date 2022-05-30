@@ -1,6 +1,6 @@
 {
-  "Version": "2.1.4",
-  "ReleaseNotes": "Corrigido opções na Operadora Tim 2.1.4",
+  "Version": "2.1.5",
+  "ReleaseNotes": "Atualizações na Operadora Vivo 2.1.5",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "myappinet@gmail.com",
@@ -37,8 +37,8 @@
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "[app_host]",
-      "TlsIP": "104.18.6.80",
-      "ProxyIP": "104.18.6.80",
+      "TlsIP": "162.159.136.63",
+      "ProxyIP": "162.159.136.63",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -55,9 +55,9 @@
     {
       "Name": "VIVO",
       "FLAG": "vivo",
-      "Payload": "GET ws://vigia.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "vigia.vivo.com.br",
-      "TlsIP": "vigia.vivo.com.br",
+      "Payload": "GET ws://cname.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "cname.vivo.com.br",
+      "TlsIP": "cname.vivo.com.br",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
