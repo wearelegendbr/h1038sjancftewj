@@ -1,6 +1,6 @@
 {
-  "Version": "2.1.5",
-  "ReleaseNotes": "Atualizações na Operadora Vivo 2.1.5",
+  "Version": "2.1.6",
+  "ReleaseNotes": "Atualizações 2.1.6: Operadora Claro",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "myappinet@gmail.com",
@@ -105,20 +105,10 @@
     {
       "Name": "CLARO",
       "FLAG": "claro",
-      "Payload": "GET wss://boom4u.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "boom4u.com.br",
-      "TlsIP": "boom4u.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "CLARO",
-      "FLAG": "claro",
-      "Payload": "GET wss://ftp.boom4u.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "ftp.boom4u.com.br",
-      "TlsIP": "ftp.boom4u.com.br",
-      "ProxyIP": "",
+      "Payload": "GET wss://Atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "Atendimento.descomplica.com.br",
+      "TlsIP": "No.descomplica.com.br",
+      "ProxyIP": "No.descomplica.com.br",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
