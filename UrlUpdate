@@ -1,6 +1,6 @@
 {
-  "Version": "2.1.6",
-  "ReleaseNotes": "Atualizações 2.1.6: Operadora Claro",
+  "Version": "2.1.7",
+  "ReleaseNotes": "Atualização 2.1.7: Operadora Claro",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "myappinet@gmail.com",
@@ -121,16 +121,6 @@
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
-    },
-    {
-      "Name": "Oi",
-      "FLAG": "oi",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "104.16.51.91",
-      "ProxyIP": "104.16.51.91",
-      "ProxyPort": "80",
-      "Info": "Proxy"
     }
   ]
 }
