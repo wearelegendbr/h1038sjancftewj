@@ -1,6 +1,6 @@
 {
-  "Version": "2.1.8",
-  "ReleaseNotes": "Atualização 2.1.8: Adicionado novas opções Claro e Tim",
+  "Version": "2.1.9",
+  "ReleaseNotes": "Atualização 2.1.9: Correção opção 1 Claro",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "myappinet@gmail.com",
@@ -115,10 +115,10 @@
     {
       "Name": "CLARO",
       "FLAG": "claro",
-      "Payload": "GET wss://Atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "Atendimento.descomplica.com.br",
-      "TlsIP": "No.descomplica.com.br",
-      "ProxyIP": "No.descomplica.com.br",
+      "Payload": "GET wss://ct.livestream.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "ct.livestream.com",
+      "TlsIP": "ct.livestream.com",
+      "ProxyIP": "ct.livestream.com",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
