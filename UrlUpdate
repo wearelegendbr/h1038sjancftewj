@@ -1,6 +1,6 @@
 {
-  "Version": "2.1.9",
-  "ReleaseNotes": "Atualização 2.1.9: Correção opção 1 Claro",
+  "Version": "2.2.0",
+  "ReleaseNotes": "Atualização 2.2.0: Adicionado nova opção Claro",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "myappinet@gmail.com",
@@ -139,6 +139,16 @@
       "SNI": "api.new.livestream.com",
       "TlsIP": "api.new.livestream.com",
       "ProxyIP": "api.new.livestream.com",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO",
+      "FLAG": "claro",
+      "Payload": "GET wss://connect.kaltura.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "connect.kaltura.com",
+      "TlsIP": "connect.kaltura.com",
+      "ProxyIP": "connect.kaltura.com",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
