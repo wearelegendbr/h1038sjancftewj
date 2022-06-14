@@ -1,6 +1,6 @@
 {
-  "Version": "2.2.7",
-  "ReleaseNotes": "Atualização 2.2.7: Correção Vivo",
+  "Version": "2.2.9",
+  "ReleaseNotes": "Atualização 2.2.9: Correção Vivo",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "myappinet@gmail.com",
@@ -45,6 +45,16 @@
     {
       "Name": "VIVO",
       "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
+      "TlsIP": "104.24.24.34",
+      "ProxyIP": "104.24.24.34",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO",
+      "FLAG": "vivo",
       "Payload": "GET ws://celular.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "celular.vivo.com.br",
       "TlsIP": "celular.vivo.com.br",
@@ -58,16 +68,6 @@
       "Payload": "GET ws://cname.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "cname.vivo.com.br",
       "TlsIP": "cname.vivo.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "VIVO",
-      "FLAG": "vivo",
-      "Payload": "GET wss://gedoc.vivo.com.br/ HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
-      "SNI": "gedoc.vivo.com.br",
-      "TlsIP": "104.18.7.80",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
