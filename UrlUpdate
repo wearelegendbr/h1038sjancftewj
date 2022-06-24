@@ -1,6 +1,6 @@
 {
-  "Version": "2.3.5",
-  "ReleaseNotes": "Atualização 2.3.5: Corrigido opção 2 Vivo",
+  "Version": "2.3.7",
+  "ReleaseNotes": "Atualização 2.3.7: Corrigido Vivo e Tim",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "myappinet@gmail.com",
@@ -53,21 +53,11 @@
       "Info": "Proxy"
     },
     {
-      "Name": "VIVO",
-      "FLAG": "vivo",
-      "Payload": "GET ws://cname.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "cname.vivo.com.br",
-      "TlsIP": "cname.vivo.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
       "Name": "TIM",
       "FLAG": "tim",
-      "Payload": "GET ws://static.r4you.co HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "static.r4you.co",
-      "TlsIP": "104.26.5.175",
+      "Payload": "GET ws://www.alura.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "www.alura.com.br",
+      "TlsIP": "104.21.84.78",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
@@ -79,26 +69,6 @@
       "SNI": "cdn.c6bank.com.br",
       "TlsIP": "104.16.237.16",
       "ProxyIP": "cdn.c6bank.com.br",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "TIM",
-      "FLAG": "tim",
-      "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "cdnjs.cloudflare.com",
-      "TlsIP": "104.16.19.94",
-      "ProxyIP": "104.16.19.94",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "TIM",
-      "FLAG": "tim",
-      "Payload": "GET wss://beringtime.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "beringtime.com",
-      "TlsIP": "beringtime.com",
-      "ProxyIP": "104.16.18.94",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
