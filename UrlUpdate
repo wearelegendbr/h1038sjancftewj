@@ -1,6 +1,6 @@
 {
-  "Version": "2.3.8",
-  "ReleaseNotes": "Atualização 2.3.8: Corrigido Vivo Opção 1",
+  "Version": "2.4.0",
+  "ReleaseNotes": "Atualização 2.4.0: Corrigido Vivo",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "myappinet@gmail.com",
@@ -25,20 +25,20 @@
     {
       "Name": "VIVO",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://status.skeelo.app/ HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "[app_host]",
-      "TlsIP": "104.24.24.34",
-      "ProxyIP": "104.24.24.34",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "104.18.7.80",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
     {
       "Name": "VIVO",
       "FLAG": "vivo",
-      "Payload": "GET wss://www.alura.com.br HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
-      "SNI": "www.alura.com.br",
-      "TlsIP": "104.24.10.16",
-      "ProxyIP": "104.24.10.16",
+      "Payload": "GET wss://status.skeelo.app/ HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "[app_host]",
+      "TlsIP": "104.18.6.80",
+      "ProxyIP": "104.18.6.80",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
