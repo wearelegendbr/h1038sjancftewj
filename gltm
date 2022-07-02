@@ -6,16 +6,10 @@
       "value": "<font color=\"#FFFFFF\">iNet Reserva</font>", 
       "id": 37, 
       "name": "app_name"
-    }, 
-    {
-      "id": 2163, 
-      "user_id": 27, 
-      "value": "#EC2333", 
-      "name": "app_background_image"
     },
     {
       "user_id": 27, 
-      "value": "#EC2333", 
+      "value": "#FFEC2333", 
       "id": 2165, 
       "name": "background_color"
     }, 
