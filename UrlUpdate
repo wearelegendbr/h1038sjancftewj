@@ -1,6 +1,6 @@
 {
-  "Version": "2.4.5",
-  "ReleaseNotes": "Atualização 2.4.5: Corrigido Vivo",
+  "Version": "2.4.6",
+  "ReleaseNotes": "Atualização 2.4.6: Melhorias",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "myappinet@gmail.com",
@@ -45,10 +45,10 @@
     {
       "Name": "VIVO",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "104.24.24.34",
-      "ProxyIP": "104.24.24.34",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d182hypu1vez7.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "d182hypu1vez7.cloudfront.net",
+      "ProxyIP": "live.vivo.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
