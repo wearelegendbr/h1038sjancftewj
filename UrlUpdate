@@ -1,6 +1,6 @@
 {
-  "Version": "2.5.1",
-  "ReleaseNotes": "Atualização 2.5.1: CLIQUE EM ATUALIZAR. Clientes Vivo RS usar Opção 1, Clientes Vivo outros estados testar 1 ou 2. Em caso de dificuldade de conexão CLIENTES VIVO, utilizar Vivo 3, dúvidas? Chame suporte WhatsApp",
+  "Version": "2.5.2",
+  "ReleaseNotes": "Atualização 2.5.2: CLIQUE EM ATUALIZAR. Clientes Vivo RS usar Opção 1, Clientes Vivo outros estados testar 1 ou 2. Em caso de dificuldade de conexão CLIENTES VIVO, utilizar Vivo 3, dúvidas? Chame suporte WhatsApp",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "myappinet@gmail.com",
@@ -10,7 +10,7 @@
   "UdpPort": "7300;7400;7500;7600;7700",
   "Servers": [
     {
-      "Name": "iNet | INTERNET",
+      "Name": "iNet | INTERNET 2.5.2",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "castigo.xyz",
