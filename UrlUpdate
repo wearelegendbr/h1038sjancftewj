@@ -1,6 +1,6 @@
 {
-  "Version": "2.5.2",
-  "ReleaseNotes": "Atualização 2.5.2: CLIQUE EM ATUALIZAR. Clientes Vivo RS usar Opção 1, Clientes Vivo outros estados testar 1 ou 2. Em caso de dificuldade de conexão CLIENTES VIVO, utilizar Vivo 3, dúvidas? Chame suporte WhatsApp",
+  "Version": "2.5.4",
+  "ReleaseNotes": "Atualização 2.5.4: CLIQUE EM ATUALIZAR. Clientes Vivo com dificuldade de se conectar, favor utilizar a opção Vivo 3, favor não utilizar com WIFI, apenas com dados móveis",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "myappinet@gmail.com",
@@ -10,7 +10,7 @@
   "UdpPort": "7300;7400;7500;7600;7700",
   "Servers": [
     {
-      "Name": "iNet | INTERNET 2.5.2",
+      "Name": "iNet | INTERNET 2.5.4",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "castigo.xyz",
@@ -43,12 +43,12 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "VIVO 3",
+      "Name": "VIVO 3 - Não usar com WIFI",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: d182hypu1vez7.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "d182hypu1vez7.cloudfront.net",
-      "ProxyIP": "live.vivo.com.br",
+      "ProxyIP": "13.35.118.90",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
