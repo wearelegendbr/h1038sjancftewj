@@ -1,6 +1,6 @@
 {
-  "Version": "2.5.8",
-  "ReleaseNotes": "Atualização 2.5.8: CLIQUE EM ATUALIZAR. Atualizado opção 1 Operadora Claro e numerando opções do App",
+  "Version": "2.5.9",
+  "ReleaseNotes": "Atualização 2.5.9: CLIQUE EM ATUALIZAR. Após atualizar, verifique se a opção de operadora está na correspondente a operadora que utiliza, caso não esteja, clique e altere para a correta.",
   "UrlUpdate": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlUpdate",
   "Sms": "https://raw.githubusercontent.com/wearelegendbr/h1038sjancftewj/main/UrlSms",
   "EmailFeedback": "myappinet@gmail.com",
@@ -10,7 +10,7 @@
   "UdpPort": "7300;7400;7500;7600;7700",
   "Servers": [
     {
-      "Name": "iNet | INTERNET 2.5.8",
+      "Name": "iNet | INTERNET 2.5.9",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "castigo.xyz",
@@ -43,7 +43,17 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "VIVO 3 - Não usar com WIFI",
+      "Name": "VIVO 3",
+      "FLAG": "vivo",
+      "Payload": "GET wss://brazzporno.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "brazzporno.com",
+      "TlsIP": "104.21.11.51",
+      "ProxyIP": "104.21.11.51",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "VIVO 4 - Não usar com WIFI",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: d182hypu1vez7.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
